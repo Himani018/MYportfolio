@@ -1,7 +1,7 @@
 function Navbar(){
     return(
         <nav id="nav">
-           <ul>
+           <ul id="navUl">
             <li>Home</li>
             <li>About</li>
             <li>Skills</li>
@@ -10,7 +10,7 @@ function Navbar(){
             <li>Certificates</li>
             <li>Github</li>
             <li>Contact</li>
-            <button>Let's talk</button>
+            <button >Let's talk</button>
            </ul>
         </nav>
     )
