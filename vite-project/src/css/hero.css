@@ -1,0 +1,26 @@
+.heroText {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0%;
+}
+.name {
+  font-size: 80px;
+  color: transparent;
+  background: linear-gradient(90deg, #3b82f6, #6366f1, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-style: italic;
+}
+h1 {
+  width: 500px;
+}
+h3 {
+  width: 500px;
+}
+p{
+    width: 500px;
+   
+}
+#Dynamic{
+        width: 500px;
+    }
