@@ -1,4 +1,4 @@
-
+import { FaDownload, FaFolderOpen, FaGithub } from "react-icons/fa";
 function Hero() {
     return (
         <>
@@ -10,7 +10,8 @@ function Hero() {
                  web apps — Building modern web 
                  experiences with a focus on performance, 
                  scalability, and clean architecture.</p>
-            <button id="ProjectButton">View Project</button> <span> <button id="ResumeButton">Download Resume</button> </span>
+            <button id="ProjectButton"> <FaFolderOpen /> View Project</button> <span> <button id="ResumeButton"> <FaDownload /> Download Resume</button> </span>
+            <button id="git"><FaGithub /> Github</button>
         </>
     )
 }
