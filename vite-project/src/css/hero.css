@@ -2,6 +2,7 @@
   font-size: 60px;
   font-weight: 800;
   margin: 0%;
+  
 }
 .name {
   font-size: 80px;
@@ -68,4 +69,27 @@ p{
 }
 #ResumeButton:hover {
   background: rgb(17, 17, 17);
+}
+#git{
+  border: none;
+  color: gray;
+}
+#git:hover {
+  color: white;
+}
+#cgpa{
+  margin-top: 20px;
+  font-weight:800;
+  color: white;
+  font-size: xx-large;
+  span{
+    margin-left: 60px;
+  }
+}
+#Textundercgpa{
+  color: gray;
+  font-size: smaller;
+  span{
+    margin-left: 30px;
+  }
 }
