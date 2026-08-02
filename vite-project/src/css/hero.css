@@ -12,13 +12,13 @@
   background-clip: text;
   font-style: italic;
 }
-h1 {
+#nameh1{
   width: 500px;
 }
-h3 {
+#nameh3 {
   width: 500px;
 }
-p{
+.mainP{
     width: 500px;
     color: rgb(156, 154, 154);
     margin: 0%;
@@ -93,3 +93,16 @@ p{
     margin-left: 30px;
   }
 }
+/* .hero{
+    position:relative;
+    overflow:hidden;
+} */
+
+/* 
+.plant{
+    position:absolute;
+    top:80px;
+    right:0;
+    width:170px;
+    height: 300px;
+} */
