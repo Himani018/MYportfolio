@@ -1,0 +1,33 @@
+.background-animation {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.background-animation__video {
+  position: absolute;
+  left: 28vw;
+  bottom: 0;
+  height: 77vh;
+  object-fit: contain;
+  object-position: bottom;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 82%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 82%, transparent 100%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .background-animation__video {
+    left: 34vw;
+    height: 70vh;
+  }
+}
+

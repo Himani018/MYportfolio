@@ -1,26 +1,18 @@
-import { FaDownload, FaFolderOpen, FaGithub } from "react-icons/fa";
-// import plant from "../assets/plant.png";
-
 function Hero() {
     return (
-        <>
-            <h1 id="nameh1" className="heroText">Hi, i'am <span className="name"> Himani Bahuguna.</span></h1>
-            <h2 className="heroText">Code is my language. </h2>
-            <h3   id="nameh3" className="heroText">Creativity is my <span className="name">signature.</span></h3>
-            <p>BCA student ·<span id="Dynamic">Aspiring Software Developer .</span> </p>
-            <p className="mainP">   I turn curious ideas into fast, elegant
-                web apps — Building modern web
-                experiences with a focus on performance,
-                scalability, and clean architecture.</p>
-            <button id="ProjectButton"> <FaFolderOpen /> View Project</button> <span> <button id="ResumeButton"> <FaDownload /> Download Resume</button> </span>
-            <button id="git" onClick={() => window.open("https://github.com/Himani018")}><FaGithub /> Github</button>
-
-            <p id="cgpa">9.04 <span>100+</span> </p>
-            <p id="Textundercgpa">Current CGPA <span>LeetCode Solved</span></p>
-            {/* <div className="hero">
-                <img src="/assets/coffee.png" className="coffee" />
-            </div> */}
-        </>
+        <section id="home" className="hero-section" aria-label="Introduction">
+            <div className="hero-copy">
+                <p className="hero-role">Hey there, I'm a BCA student and aspiring software developer</p>
+                <h1 className="hero-intro">Code is my language.<br />Creativity is my<br />signature. Now, what are<br />we building?</h1>
+                <div className="hero-actions" aria-label="Portfolio links">
+                    <a className="hero-link" href="https://github.com/Himani018?tab=repositories" target="_blank" rel="noreferrer">View projects</a>
+                    <a className="hero-link" href="#about">About me</a>
+                    <a className="hero-link" href="https://github.com/Himani018" target="_blank" rel="noreferrer">Send a brief hello</a>
+                    <a className="hero-link hero-link--outline" href="https://github.com/Himani018" target="_blank" rel="noreferrer">GitHub</a>
+                    <a className="hero-link hero-link--outline" href="https://github.com/Himani018" target="_blank" rel="noreferrer">Let's talk</a>
+                </div>
+            </div>
+        </section>
     )
 }
 export default Hero;

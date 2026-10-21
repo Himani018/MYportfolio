@@ -1,11 +1,31 @@
+.about-section {
+  max-width: 1000px;
+  min-height: 55vh;
+  padding: 92px clamp(0px, 4vw, 56px);
+}
+
 .mainFont {
-  font-size: 50px;
-  width: 800px;
-  margin-top: 150px;
+  width: min(800px, 100%);
+  margin: 0;
+  color: #f7f7f8;
+  font-size: clamp(2rem, 4vw, 3.125rem);
+  line-height: 1.12;
   span {
     color: transparent;
     background: linear-gradient(90deg, #3b82f6, #6366f1, #a855f7, #ec4899);
     -webkit-background-clip: text;
     background-clip: text;
+  }
+}
+
+.about-section .mainP {
+  margin-top: 18px;
+  color: #b6b6c0;
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    min-height: 45vh;
+    padding: 72px 0 48px;
   }
 }
