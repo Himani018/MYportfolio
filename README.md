@@ -53,7 +53,8 @@ The goal of this project is to maintain a professional online presence while doc
 
 ## 📸 Screenshots
 
-I will Add screenshots of my portfolio here after deployment..hehe :) .
+<img width="1258" height="589" alt="Screenshot 2026-10-21 233122" src="https://github.com/user-attachments/assets/7fef86d5-bef0-4a40-b2e3-8f51bccd0aec" />
+
 
 ---
 
